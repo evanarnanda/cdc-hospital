@@ -1,0 +1,17 @@
+[project]
+name = "hospital"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "==3.11.*"
+dependencies = [
+    "faker>=30.8.2",
+    "psycopg[binary]>=3.2.3",
+    "python-dateutil>=2.9.0.post0",
+    "ruff>=0.7.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
